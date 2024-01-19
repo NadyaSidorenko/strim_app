@@ -18,7 +18,7 @@ from pathlib import Path
 from download import csv_download_link
 #название приложения
 st.title('Визуализация датасетов')
-from ns_app.test import test_v
+from test import test_v
 # Настройка боковой панели
 st.sidebar.title("Справка")
 st.sidebar.info(
